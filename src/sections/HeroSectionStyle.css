@@ -1,0 +1,15 @@
+.hero-section{
+  height: 10vh;
+  scroll-snap-align: center;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  
+  
+}
