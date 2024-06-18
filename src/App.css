@@ -13,11 +13,8 @@
   font-style: italic;
 }
 html {
-  
-  scroll-behavior: smooth;
-}
-body {
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 section{
