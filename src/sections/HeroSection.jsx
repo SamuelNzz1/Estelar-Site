@@ -7,6 +7,11 @@ export const HeroSection = () => {
           <img src="/estelarlogo.svg" alt="" width={150}  />
       </a>
 
-      
+      <ul className="listaLinks">
+        <li> <a href="#about-section"> Objetivos </a> </li>
+        <li> <a href="#function-section"> Funcionalidades </a></li>
+        <li> <a href="#members-section"> Quem somos </a></li>
+      </ul>
+
     </nav>
 }

@@ -1,5 +1,5 @@
 export const MembersSection = () => {
-  return <section className="members-section">
+  return <section id="members-section" className="members-section">
     <h1>Members</h1>
   </section> 
 }
