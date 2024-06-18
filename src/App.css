@@ -12,10 +12,21 @@
   font-weight: 600;
   font-style: italic;
 }
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section{
+  scroll-snap-align: center;
+  height: 100vh;
+
+}
 
 html, body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 img, picture, video, canvas, svg {
