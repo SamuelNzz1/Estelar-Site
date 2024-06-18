@@ -1,7 +1,13 @@
 import './HeroSectionStyle.css'
-
+import { motion } from 'framer-motion'
 export const HeroSection = () => {
-    return <nav className="hero-section"> 
+    return <motion.nav 
+    initial={ { x: '100vw' } }  // Posição inicial fora da tela à direita
+    animate={ { x: 0 } }        // Posição final (ponto zero no eixo X)
+    transition={{ type: 'spring'}} 
+
+    className="hero-section"> 
+      
       <a className='logo' href='#' > 
           <img src="/vite.svg" alt="" width={35} />
           <img src="/estelarlogo.svg" alt="" width={150}  />
@@ -13,5 +19,5 @@ export const HeroSection = () => {
         <li> <a href="#members-section"> Quem somos </a></li>
       </ul>
 
-    </nav>
+    </motion.nav>
 }
