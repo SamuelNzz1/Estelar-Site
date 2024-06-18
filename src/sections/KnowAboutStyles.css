@@ -1,0 +1,14 @@
+.know-section {
+   display: flex;
+   justify-content: center;
+   
+   background-image: url('/starsAbout.svg');
+   background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+   background-position: center;
+   background-repeat: no-repeat;
+} 
+.planet-fundo {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}

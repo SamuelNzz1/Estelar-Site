@@ -1,23 +1,28 @@
 import './HeroSectionStyle.css'
 import { motion } from 'framer-motion'
 export const HeroSection = () => {
-    return <motion.nav 
-    initial={ { x: '100vw' } }  // Posição inicial fora da tela à direita
-    animate={ { x: 0 } }        // Posição final (ponto zero no eixo X)
-    transition={{ type: 'spring'}} 
+    return <nav
 
     className="hero-section"> 
       
-      <a className='logo' href='#' > 
+      <motion.a initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1 }}  className='logo' href='#' > 
           <img src="/vite.svg" alt="" width={35} />
           <img src="/estelarlogo.svg" alt="" width={150}  />
-      </a>
+      </motion.a>
 
       <ul className="listaLinks">
-        <li> <a href="#about-section"> Objetivos </a> </li>
-        <li> <a href="#function-section"> Funcionalidades </a></li>
-        <li> <a href="#members-section"> Quem somos </a></li>
+        <li> <motion.a  initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1 }} href="#about-section"> Objetivos </motion.a> </li>
+        <li> <motion.a  initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1 }} href="#function-section"> Funcionalidades </motion.a></li>
+        <li> <motion.a  initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 1 }} href="#members-section"> Quem somos </motion.a></li>
       </ul>
 
-    </motion.nav>
+    </nav>
 }
