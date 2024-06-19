@@ -42,9 +42,9 @@ export const KnowSection = () => {
         </a>
       </div>
       <motion.img
-        initial={{x: "100%"}}  
+        initial={{y: "-100%"}}  
         transition={{duration: 2}}
-        whileInView={{x: 0}}
+        whileInView={{y: 0}}
         
         className="planet-fundo"
         src="/planetBackground.svg"

@@ -1,6 +1,7 @@
 .about-section{
   display: flex;
   overflow: hidden;
+  
 }
 #about-section{
   height: 120vh;
@@ -25,9 +26,7 @@
 
 }
 .mockup{
-  
-  align-self: flex-end;
-
+  align-items: center;
 }
 .principal-text-right{
   font-size: 2.5rem;
