@@ -1,5 +1,24 @@
+import "./AboutSectionStyle.css";
+import { motion } from "framer-motion";
+
 export const AboutSection = () => {
   return <section id="about-section" className="about-section">
-    <h1>About</h1>
+    <div className="left">
+        <motion.img 
+        initial = {{x:"-100%", y: "100%"}}
+        whileInView={{x:0, y:0}}
+        transition={{duration: 1}}
+        className="mockup" width={400}  src="/mockupViews.png" alt="" />
+    </div>
+    <div className="right">
+        <motion.h1 className="principal-text-right">Qual a nossa <span className="span-mission">missão</span>?</motion.h1>
+        <motion.p className="paragrafo-about">O objetivo do estelar é ajudar você a aprender sobre astronomia enquanto se diverte! Utilizando recursos de gamificação e tecnologias inovadoras.</motion.p>
+        <motion.button  
+        initial={{ background: 'linear-gradient(45deg,  #30102F, #D60E62)', opacity: 0, scale: 0.5 }}
+        whileHover={{ background: 'linear-gradient(45deg, #110726, #0E6AD6)' }}
+        whileInView={{opacity: 1, scale: 1}}
+            transition={{ duration: 0.5 }}
+        className="about-button"> Prosseguir <img src="/arrowBottom.svg" alt="" /></motion.button>
+    </div>
   </section> 
 }

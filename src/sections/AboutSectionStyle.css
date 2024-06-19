@@ -1,0 +1,55 @@
+.about-section{
+  display: flex;
+  overflow: hidden;
+}
+#about-section{
+  height: 120vh;
+}
+.left{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  
+  
+}
+.right{ 
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: flex-start;
+  gap: 50px;
+
+
+}
+.mockup{
+  
+  align-self: flex-end;
+
+}
+.principal-text-right{
+  font-size: 2.5rem;
+}
+.span-mission{
+  color: #F8BC3B;
+}
+.paragrafo-about{
+  font-size: 1.1rem;
+  width: 70%;
+ 
+}
+.about-button{
+  
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
