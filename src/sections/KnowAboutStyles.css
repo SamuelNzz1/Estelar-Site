@@ -1,6 +1,7 @@
 .know-section {
    display: flex;
    justify-content: center;
+   align-items: center;
    
    background-image: url('/starsAbout.svg');
    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
@@ -9,6 +10,52 @@
 } 
 .planet-fundo {
   position: absolute;
-  top: 10px;
+ 
   right: 0;
+  z-index: 0;
+}
+
+.message-card {
+  display: flex;
+  width: 60vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  gap: 20px;
+}
+.text-h1-know {
+  font-size: 2.5rem;
+}
+.sublinhado{
+  position: relative;
+  right: 0;
+  top: 0;
+}
+.know-text{
+  display: flex;
+  gap: 12px;
+  
+}
+.paragrafoKnow{
+  font-size: 1.1rem;
+}
+.paragrafo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.know-button{
+
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+
 }

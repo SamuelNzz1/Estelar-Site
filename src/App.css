@@ -22,7 +22,10 @@ section{
   height: 100vh;
 
 }
-
+button{
+  color: white;
+  
+}
 .container{
   background-color: #110726;
 }
