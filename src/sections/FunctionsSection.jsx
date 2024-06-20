@@ -44,7 +44,7 @@ export const FunctionsSection = () => {
               subtitle={card.subtitle}
               cor={card.cor}
               svg={card.svg} 
-              constraintsRef={constraintsRef}
+             
 
             /> 
           )

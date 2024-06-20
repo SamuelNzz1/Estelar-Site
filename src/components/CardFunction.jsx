@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 
-export const CardFunction = ({title, subtitle, cor, svg, constraintsRef}) => {
+export const CardFunction = ({title, subtitle, cor, svg}) => {
  
   return <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
@@ -10,7 +10,7 @@ export const CardFunction = ({title, subtitle, cor, svg, constraintsRef}) => {
        whileHover={{scale: 1.1, transition: 0.5}}
         
 
-        drag dragElastic={0.2} dragConstraints={constraintsRef} whileDrag={{scale: 1.1}} 
+       
       
         className="card-function">
         <motion.img className='svg-card' src= {svg} width={90} alt="" />
