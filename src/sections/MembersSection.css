@@ -1,0 +1,78 @@
+#text-titulo-members{
+    font-size: 2.0rem;
+    
+}
+#members-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 10vh;
+
+}
+.span-equipe{
+    color: #F8BC3B;
+
+}
+.members-infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+  
+    
+}
+.member-card{
+    display: flex;
+    width: 80%;
+    height: 22vh;
+  
+    gap: 5px;
+
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+.right{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+width: 75%;
+}
+.right2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    }
+.left2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 75%;
+    }
+.foto{
+    border-radius: 100px;
+    border: 6px solid #F8BC3B;
+}
+.foto2{
+    border-radius: 100px;
+    border: 6px solid #7291FF;
+}
+.foto3{
+    border-radius: 100px;
+    border: 6px solid #B840A1;
+}
+.paragrafo-w{
+    width: 50%;
+}
