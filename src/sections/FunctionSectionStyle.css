@@ -10,10 +10,12 @@
 }
 .functions-title{
   font-size: 2.0rem;
+  text-align: center;
 }
 .functions-paragrafo{
   font-size: 1.0rem;
   width: 40%;
+  text-align: center;
 }
 
 .card-function{

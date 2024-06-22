@@ -1,6 +1,6 @@
 #text-titulo-members{
     font-size: 2.0rem;
-    
+    text-align: center;
 }
 #members-section{
     display: flex;
@@ -76,6 +76,12 @@ width: 75%;
     border: 6px solid #B840A1;
     width: 150px;
 }
+
 .paragrafo-w{
     width: 60%;
+    text-align: left;
+}
+.paragrafo-w2{
+    width: 60%;
+    text-align: right;
 }

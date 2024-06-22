@@ -26,7 +26,7 @@
 }
 .text-h1-know {
   font-size: 2.5rem;
-  
+  text-align: center;
 }
 .sublinhado{
   position: relative;
@@ -40,6 +40,7 @@
 }
 .paragrafoKnow{
   font-size: 1.1rem;
+  text-align: center;
 }
 .paragrafo{
   display: flex;

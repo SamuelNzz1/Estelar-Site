@@ -35,6 +35,7 @@
 }
 .principal-text-right{
   font-size: 2.5rem;
+  text-align: center;
 }
 .span-mission{
   color: #F8BC3B;
@@ -42,7 +43,7 @@
 .paragrafo-about{
   font-size: 1.1rem;
   width: 70%;
- 
+  text-align: center;
 }
 .about-button{
   
