@@ -16,7 +16,7 @@ function App() {
         style={{
           
           scaleX: scrollYProgress,
-          
+          zIndex: 3,
           transformOrigin: "left",
           backgroundColor: "#F8BC3B",
           position: "sticky",
