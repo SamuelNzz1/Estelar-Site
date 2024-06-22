@@ -52,3 +52,33 @@ gap: 10px;
 .logo-svg-footer{
   width: 50px;
 }
+
+@media (max-width: 750px){
+  #footer-section{
+    flex-direction: column;
+    height: 80vh;
+    gap: 10vh
+  }
+  .right-footer{
+    justify-content: space-evenly;
+    width: 100%
+  }
+  .left-footer{
+    width: 100%;
+  }
+}
+@media (max-width: 445px){
+  #footer-section{
+    flex-direction: column;
+    height: 100vh;
+    gap: 10vh
+  }
+  .right-footer{
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh
+  }
+  
+}
