@@ -16,17 +16,13 @@ export const KnowSection = () => {
         <motion.div initial={{ opacity: 0.25, scale: 0.5}}  
     transition={{duration: 0.5}}
     whileInView={{opacity: 1, scale: 1}} className='know-text'>
-          <motion.h1 className='text-h1-know'>Descubra o universo com o</motion.h1>
-          <div>
-            <motion.h1 className='text-h1-know'>Estelar!</motion.h1>
-            <motion.img src="/estelarsublinhado.svg" alt="" />
-          </div>
+          <motion.h1 className='text-h1-know'>Descubra o universo com o Estelar!</motion.h1>
         </motion.div>
         <motion.div initial={{ opacity: 0.25, scale: 0.5 }}  
     transition={{duration: 0.5}}
     whileInView={{opacity: 1, scale: 1}} className='paragrafo'>
-          <motion.p className='paragrafoKnow'>Um aplicativo que tem como objetivo auxiliar no processo de</motion.p>
-          <motion.p className='paragrafoKnow'>aprendizado de astronomia</motion.p>
+          <motion.p className='paragrafoKnow'>Um aplicativo que tem como objetivo auxiliar no processo de aprendizado de astronomia</motion.p>
+       
         </motion.div>
         <a href='#about-section'>
           <motion.button

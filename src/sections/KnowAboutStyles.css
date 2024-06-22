@@ -2,13 +2,13 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   
+  position: relative;
    
   
 } 
 .planet-fundo {
   position: absolute;
- 
+  bottom: 0;
   right: 0;
   z-index: 0;
   width: 30vw;
@@ -48,8 +48,8 @@
 .know-button{
 
   border-radius: 50px;
-  width: 200px;
-  height: 40px;
+  width: 25vw;
+  height: 7vh;
   
   display: flex;
   justify-content: center;
@@ -58,4 +58,44 @@
   border: none;
   cursor: pointer;
 
+}
+@media (max-width: 900px) {
+    .text-h1-know{
+      font-size: 2.0rem;
+    }
+    .paragrafoKnow{
+      font-size: 0.8rem;
+    }
+    .know-button{ 
+      width: 25vw ;
+      font-size: 0.8rem;
+    }
+}
+@media (max-width: 575px) {
+  .text-h1-know{
+    font-size: 1.5rem;
+  }
+  .paragrafoKnow{
+    font-size: 0.8rem;
+  }
+  .know-button{ 
+    width: 25vw ;
+    font-size: 0.6rem;
+  }
+  .know-section{
+    align-items: flex-start;
+  }
+}
+@media (max-width: 425px) {
+  .text-h1-know{
+    font-size: 1.0rem;
+  }
+  .paragrafoKnow{
+    font-size: 0.6rem;
+  }
+  .know-button{ 
+    width: 25vw ;
+    font-size: 0.5rem;
+  }
+  
 }

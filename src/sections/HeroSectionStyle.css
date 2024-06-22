@@ -1,5 +1,8 @@
+
+
 .hero-section{
   height: 10vh;
+  width: 100%;
   scroll-snap-align: center;
   border-bottom: 1px solid white;
   display: flex;
@@ -24,4 +27,15 @@
 a {
   padding: 10px;
   z-index: 5;
+}
+
+
+@media (max-width: 765px) {
+  .listaLinks {
+    display: none;
+
+  }
+  .hero-section{
+    justify-content: center;
+  }
 }
