@@ -36,8 +36,8 @@ export const AboutSection = () => {
     <div className="left">
       
       <motion.img 
-      initial = {{x:"-100%", y: "100%"}}
-      whileInView={{x:0, y:0}}
+      initial = {{scale: 0, opacity: 0.25}}
+      animate={{scale: 1, opacity: 1}}
       transition={{duration: 1}}
       className="mockup"  src="/mockupViews.png" alt="" />
      

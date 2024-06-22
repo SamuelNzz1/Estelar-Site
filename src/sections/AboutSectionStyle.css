@@ -6,6 +6,7 @@
 }
 #about-section{
   height: 120vh;
+  scroll-snap-align: flex-start;
 }
 .left{
   height: 100%;
