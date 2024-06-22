@@ -10,7 +10,7 @@ export const MembersSection = () => {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.8,
+        staggerChildren: 1.2,
       }
     }
   };

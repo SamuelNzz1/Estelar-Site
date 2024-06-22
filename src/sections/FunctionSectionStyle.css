@@ -5,6 +5,9 @@
   padding: 50px;
   gap: 20px;
 }
+#functions-section{
+  scroll-snap-align: center;
+}
 .functions-title{
   font-size: 2.0rem;
 }
@@ -66,4 +69,109 @@
 .svg-card{
   position: absolute;
   top: -50px;
+}
+
+
+@media(max-width: 950px ){
+  .functions-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px
+  }
+  #functions-section{
+    height: 250vh;
+      
+  }
+  .card-function{
+    width: 25vw;
+  }
+}
+
+@media(max-width: 750px ){
+  .functions-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px
+  }
+  #functions-section{
+    height: 250vh;
+      
+  }
+  .card-function{
+    width: 30vw;
+  }
+}
+@media(max-width: 600px ){
+  .functions-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px
+  }
+  #functions-section{
+    height: 250vh;
+      
+  }
+  .card-function{
+    width: 40vw;
+  }
+  .functions-paragrafo{
+    width: 80%;
+  }
+}
+@media(max-width: 500px ){
+  .functions-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px
+  }
+  #functions-section{
+    height: 250vh;
+      
+  }
+  .card-function{
+    width: 50vw;
+  }
+  .functions-paragrafo{
+    width: 80%;
+  }
+}
+
+@media(max-width: 400px ){
+  .functions-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px
+  }
+  #functions-section{
+    height: 250vh;
+      
+  }
+  .card-function{
+    width: 60vw;
+  }
+  .functions-paragrafo{
+    width: 80%;
+  }
+}
+@media(max-width: 370px ){
+  .functions-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px
+  }
+  #functions-section{
+    height: 250vh;
+      
+  }
+  .card-function{
+    width: 60vw;
+  }
+  .functions-paragrafo{
+    width: 80%;
+    font-size: 0.8rem;
+
+  }
+  .functions-title{
+    font-size: 1.5rem;
+  }
 }

@@ -6,7 +6,7 @@
 }
 #about-section{
   height: 120vh;
-  scroll-snap-align: flex-start;
+  
 }
 .left{
   height: 100%;
@@ -91,7 +91,7 @@
      font-size: 2.0rem;
   }
   .paragrafo-about{
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .mockup{
     width: 35vw;
@@ -144,6 +144,21 @@
     font-size: 0.6rem;
   }
   .principal-text-right{
+    font-size: 2rem;
+ }
+}
+@media (max-width: 370px) {
+ 
+  .mockup{
+    width: 50vw;
+  }
+  .about-button{
+    font-size: 0.6rem;
+  }
+  .principal-text-right{
     font-size: 1.5rem;
  }
+ .paragrafo-about{
+  font-size: 0.8rem;
+}
 }

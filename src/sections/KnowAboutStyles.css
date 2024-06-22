@@ -26,6 +26,7 @@
 }
 .text-h1-know {
   font-size: 2.5rem;
+  
 }
 .sublinhado{
   position: relative;
@@ -88,12 +89,7 @@
   }
 }
 @media (max-width: 425px) {
-  .text-h1-know{
-    font-size: 1.0rem;
-  }
-  .paragrafoKnow{
-    font-size: 0.6rem;
-  }
+  
   .know-button{ 
     width: 25vw ;
     font-size: 0.5rem;

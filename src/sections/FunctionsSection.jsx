@@ -35,7 +35,7 @@ export const FunctionsSection = () => {
     show: {
       opacity: 1,
       transition:{
-        staggerChildren: 0.40
+        staggerChildren: 0.80
       }
       
     }
