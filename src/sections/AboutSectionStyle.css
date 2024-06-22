@@ -6,7 +6,7 @@
 }
 #about-section{
   height: 120vh;
-  scroll-snap-align: flex-start;
+  scroll-snap-align: flex-end;
 }
 .left{
   height: 100%;
