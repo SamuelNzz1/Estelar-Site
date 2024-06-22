@@ -5,6 +5,7 @@ import { FunctionsSection } from './sections/FunctionsSection'
 import { HeroSection } from './sections/HeroSection'
 import { KnowSection } from './sections/KnowAboutSection'
 import { MembersSection } from './sections/MembersSection'
+import { FooterSection } from './sections/FooterSection'
 function App() {
  
 
@@ -15,7 +16,8 @@ function App() {
       <AboutSection/>
       <FunctionsSection/>
       <MembersSection/>
-     
+      <FooterSection/>
+      
     </div>
   )
 }

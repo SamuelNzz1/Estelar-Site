@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     gap: 10vh;
 
 }
@@ -27,34 +27,34 @@
 .member-card{
     display: flex;
     width: 80%;
-    height: 22vh;
+    height: 18vh;
   
     gap: 5px;
 
     
 }
-.left{
+.left-member-card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 25%;
 }
-.right{
+.right-member-card{
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: center;
 width: 75%;
 }
-.right2{
+.right-member-card2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 25%;
     }
-.left2{
+.left-member-card2{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -64,15 +64,18 @@ width: 75%;
 .foto{
     border-radius: 100px;
     border: 6px solid #F8BC3B;
+    width: 150px;
 }
 .foto2{
     border-radius: 100px;
     border: 6px solid #7291FF;
+    width: 150px;
 }
 .foto3{
     border-radius: 100px;
     border: 6px solid #B840A1;
+    width: 150px;
 }
 .paragrafo-w{
-    width: 50%;
+    width: 60%;
 }

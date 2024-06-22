@@ -1,0 +1,51 @@
+#footer-section{
+  height: 60vh;
+}
+.footer-section{
+  background-color: #100929;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.left-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.right-footer{
+  display: flex;
+  
+  justify-content: space-evenly;
+  width: 60%;
+}
+.logo-container{
+    display: flex;
+    gap: 20px;
+    
+    
+  
+}
+.instagram{
+display: flex;
+gap: 10px
+}
+.email{
+display: flex;
+gap: 10px;
+}
+.inst-logo{
+  width: 25px;
+}
+.email-logo{
+  width: 25px;
+}
+.img-footer{
+  width: 200px;
+}

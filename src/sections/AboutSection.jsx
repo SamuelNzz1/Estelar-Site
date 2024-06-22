@@ -8,7 +8,7 @@ export const AboutSection = () => {
         initial = {{x:"-100%", y: "100%"}}
         whileInView={{x:0, y:0}}
         transition={{duration: 1}}
-        className="mockup" width={400}  src="/mockupViews.png" alt="" />
+        className="mockup"  src="/mockupViews.png" alt="" />
     </div>
     <div className="right">
         <motion.h1 initial = {{opacity: 0, scale: 0.5}} whileInView={{opacity: 1, scale: 1}} transition={{duration: 1}} className="principal-text-right">Qual a nossa <span className="span-mission">missão</span>?</motion.h1>
