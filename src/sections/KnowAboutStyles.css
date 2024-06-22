@@ -65,10 +65,11 @@
     }
     .paragrafoKnow{
       font-size: 0.8rem;
+      text-justify: initial;
     }
     .know-button{ 
       width: 25vw ;
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 }
 @media (max-width: 575px) {

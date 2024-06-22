@@ -46,8 +46,8 @@
 .about-button{
   
   border-radius: 50px;
-  width: 200px;
-  height: 40px;
+  width: 25vw;
+  height: 7vh;
   
   display: flex;
   justify-content: center;
@@ -55,4 +55,94 @@
   gap: 10px;
   border: none;
   cursor: pointer;
+}
+.mockups-exemplos{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  
+
+}
+.mockup-exemplo-img{
+  flex: 0 0 auto;
+  width: 20vw;
+}
+
+@media (max-width: 910px) {
+  .principal-text-right{
+     font-size: 2.0rem;
+  }
+  .paragrafo-about{
+    font-size: 0.8rem;
+  }
+  .mockup{
+    width: 35vw;
+  }
+}@media (max-width: 802px) {
+  .mockup{
+    width: 40vw;
+  }
+}
+@media (max-width: 730px) {
+  .principal-text-right{
+     font-size: 2.0rem;
+  }
+  .paragrafo-about{
+    font-size: 0.8rem;
+  }
+  .mockup{
+    width: 35vw;
+  }
+  .about-section{
+    flex-direction: column-reverse;
+    height: 150vh;
+    
+  }
+  .right{
+    height: 50%;
+    width: 100%;
+  }
+  .left{
+    height: 50%;
+    width: 100%;
+  }
+}
+@media (max-width: 630px) {
+ 
+  .mockup{
+    width: 40vw;
+  }
+ 
+}
+@media (max-width: 510px) {
+ 
+  .mockup{
+    width: 40vw;
+  }
+  .about-button{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 470px) {
+ 
+  .mockup{
+    width: 45vw;
+  }
+  .about-button{
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 410px) {
+ 
+  .mockup{
+    width: 50vw;
+  }
+  .about-button{
+    font-size: 0.6rem;
+  }
+  .principal-text-right{
+    font-size: 1.5rem;
+ }
 }
