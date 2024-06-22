@@ -13,8 +13,8 @@ export const KnowSection = () => {
     
     className="know-section">
       <div className="message-card">
-        <motion.div initial={{ opacity: 0, scale: 0.5 }}  
-    transition={{duration: 2}}
+        <motion.div initial={{ opacity: 0.25, scale: 0.5}}  
+    transition={{duration: 0.5}}
     whileInView={{opacity: 1, scale: 1}} className='know-text'>
           <motion.h1 className='text-h1-know'>Descubra o universo com o</motion.h1>
           <div>
@@ -22,8 +22,8 @@ export const KnowSection = () => {
             <motion.img src="/estelarsublinhado.svg" alt="" />
           </div>
         </motion.div>
-        <motion.div initial={{ opacity: 0, scale: 0.5 }}  
-    transition={{duration: 2}}
+        <motion.div initial={{ opacity: 0.25, scale: 0.5 }}  
+    transition={{duration: 0.5}}
     whileInView={{opacity: 1, scale: 1}} className='paragrafo'>
           <motion.p className='paragrafoKnow'>Um aplicativo que tem como objetivo auxiliar no processo de</motion.p>
           <motion.p className='paragrafoKnow'>aprendizado de astronomia</motion.p>
@@ -42,9 +42,8 @@ export const KnowSection = () => {
         </a>
       </div>
       <motion.img
-        initial={{y: "-100%"}}  
-        transition={{duration: 2}}
-        whileInView={{y: 0}}
+        
+        
         
         className="planet-fundo"
         src="/planetBackground.svg"

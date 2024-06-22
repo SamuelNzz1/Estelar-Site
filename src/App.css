@@ -39,6 +39,12 @@ html, body {
   
  
 }
+.container{
+  background-image: url('/background.svg');
+  background-size:cover; /* Ajusta a imagem para cobrir toda a área */
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 img, picture, video, canvas, svg {
@@ -66,4 +72,26 @@ a {
 
 li{
   list-style: none;
+}
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+  height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilizando a trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #110726; /* Cor do fundo da trilha */
+   /* Bordas arredondadas */
+}
+
+/* Estilizando o polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #F8BC3B; /* Cor do polegar */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Cor do polegar ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 206, 99);
 }

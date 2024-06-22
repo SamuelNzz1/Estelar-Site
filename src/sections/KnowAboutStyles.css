@@ -3,10 +3,7 @@
    justify-content: center;
    align-items: center;
    
-   background-image: url('/starsAbout.svg');
-   background-size:contain; /* Ajusta a imagem para cobrir toda a área */
-   background-position: center;
-   background-repeat: no-repeat;
+   
   
 } 
 .planet-fundo {
@@ -14,6 +11,8 @@
  
   right: 0;
   z-index: 0;
+  width: 30vw;
+  height: 100vh
 }
 
 .message-card {

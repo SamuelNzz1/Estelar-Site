@@ -1,14 +1,12 @@
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 
-export const CardFunction = ({title, subtitle, cor, svg}) => {
+export const CardFunction = ({title, subtitle, cor, svg, variants}) => {
  
   return <motion.div
-        initial={{ opacity: 0, scale: 0.5 }}
-       whileInView={{ opacity: 1, scale: 1 }}
-       transition={{duration: 1}}
+       
        whileHover={{scale: 1.1, transition: 0.5}}
-        
+        variants={variants}
 
        
       
