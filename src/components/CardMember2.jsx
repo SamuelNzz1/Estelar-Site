@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export const MemberCard2 = ({variants}) => {
 
-    return (<motion.div variants={variants}   className="member-card">
+    return (<motion.div variants={variants}  id= "kami-member"  className="member-card">
          <div className="left-member-card2">
             <h1 className="titulo">Kamily Gomes - Designer</h1>
             <p className="paragrafo-w2">Responsável por criar e desenvolver interfaces visuais,  colaborar com a equipe de desenvolvimento, manter a consistência visual e garantir uma boa experiência do usuário.</p>

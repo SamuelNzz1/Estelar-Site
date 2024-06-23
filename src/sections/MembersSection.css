@@ -8,7 +8,7 @@
     align-items: center;
     padding: 20px;
     gap: 10vh;
-    height: 120vh;
+    height: 140vh;
 
 }
 .span-equipe{
@@ -34,6 +34,7 @@
 
     
 }
+
 .left-member-card{
     display: flex;
     flex-direction: column;
@@ -131,28 +132,7 @@ width: 75%;
     }
 
 }
-@media (max-width: 511px) { 
-    .paragrafo-w{
-        width: 100%;
-        text-align: center;
-        font-size: 0.6rem;
-    }
-    .paragrafo-w2{
-        width: 100%;
-        text-align: center;
-        font-size: 0.6rem;
-    }
-    .titulo{
-        font-size: 0.8rem;
-    }
-    .members-infos{
-        gap: 10vh
-    }
-    .foto-width{
-        width: 150px
-    }
 
-}
 @media (max-width: 470px) { 
     .paragrafo-w{
         width: 100%;

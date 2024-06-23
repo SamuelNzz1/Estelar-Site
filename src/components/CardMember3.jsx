@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 export const MemberCard3 = ({variants}) => {
 
-    return (<motion.div variants={variants}   className="member-card">
+    return (<motion.div variants={variants}    className="member-card">
         <div className="left-member-card foto-width">
             <img className="foto3"   src="/Laura-foto.png" alt="" />
         </div>
