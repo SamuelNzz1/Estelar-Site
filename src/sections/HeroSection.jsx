@@ -18,7 +18,7 @@ export const HeroSection = () => {
     transition={{ duration: 1 }} whileHover={{scale: 1.1, transition: 0.5}}  href="#about-section"> Objetivos </motion.a> </li>
         <li> <motion.a  initial={{ opacity: 0, scale: 0.5 }}
     whileInView={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 1 }} whileHover={{scale: 1.1, transition: 0.5}} href="#function-section"> Funcionalidades </motion.a></li>
+    transition={{ duration: 1 }} whileHover={{scale: 1.1, transition: 0.5}} href="#functions-section"> Funcionalidades </motion.a></li>
         <li> <motion.a  initial={{ opacity: 0, scale: 0.5 }}
     whileInView={{ opacity: 1, scale: 1 }}
     transition={{ duration: 1 }}
